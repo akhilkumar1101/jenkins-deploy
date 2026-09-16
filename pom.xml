@@ -9,7 +9,7 @@
 
     <groupId>com.github.akhilkumar1101</groupId>
     <artifactId>jenkins-demo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
