@@ -18,7 +18,7 @@ pipeline {
 
         stage('Build & Deploy') {
             steps {
-                configFileProvider([configFile(fileId: 'maven-github-settings', variable: 'MAVEN_SETTINGS')]) {
+                configFileProvider([configFile(fileId: '49f2a003-372b-4707-9389-8031e6140ee7', variable: 'MAVEN_SETTINGS')]) {
                     sh """
                         export GH_USER=${GITHUB_CREDS_USR}
                         export GH_TOKEN=${GITHUB_CREDS_PSW}
